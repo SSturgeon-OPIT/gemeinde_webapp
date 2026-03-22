@@ -27,6 +27,18 @@
     <h1> Zeitplan </h1>
     <p> Hier wird der Rest des Gemeindeplans für 2026 zu finden sein. Hast du etwas hinzuzufügen? Dann gehe auf die Seite „Ideeneinreichung” und reiche dort deinen Vorschlag ein! </p>
 
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script> 
+     
+
+
+    <div id="event-modal" style="display:none;">
+      <div id="modal-content">
+        <h2 id="modal-title"></h2>
+        <p id="modal-time"></p>
+        <p id="modal-description"></p>
+        <button onclick="closeModal()">Schließen</button>
+      </div>
+    </div>
 
 
 
@@ -50,5 +62,7 @@
 
      </section>
     </main>
+
+    <script src="js/calendar.js"></script>
   </body>
 </html>
