@@ -1,4 +1,6 @@
 # Esslingen Gemeinde Web App - Prototype
+####### Protytpe can be found:
+https://ssturgeon-opit.github.io/gemeinde_webapp/
 
 ## This project, currently in the Protoype stage of progress, is intended for the members of the Esslingen Christadelphian Ecclesia
 
@@ -8,9 +10,11 @@
 
 ##### What the prototype currently offers: > 4 Different landing pages within the web app > Background Image > Placeholders to fill the sections on the home page > HTML and CSS files > HTML bones for the 3 landing pages that aren't the main page
 
-###### What is coming next: > Search bar function > Daily Bible verse funciton > Interactive Calendar > Additional info to fill the "Jugendtreff", Ideeneinreichung" and "Zeitplan" landing pages
+###### What is coming next: > /* Search bar function removed */  > Daily Bible verse funciton > Interactive Calendar > Additional info to fill the "Jugendtreff", Ideeneinreichung" and "Zeitplan" landing pages
 
 ###### Have decided to remove the search bar feature, as I've decided not a necessary function needed to navigate the website
 
-####### Protytpe can be found:
-https://ssturgeon-opit.github.io/gemeinde_webapp/
+##### Interactive Calendar Being Used Can Be found here: 
+https://fullcalendar.io/docs/initialize-globals 
+##### This calendar is the template with which I will be uploading yearly events for the Esslingen Gemeinde. 
+ 
