@@ -87,7 +87,7 @@ const churchEvents =
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-17T10:00",
-    end:   "2026-05-175T12:00",
+    end:   "2026-05-17T12:00",
     extendedProps:
     {
         Empfang: "Jochen Pokowietz",
@@ -152,7 +152,7 @@ const churchEvents =
     {
         Empfang: "Peter Siller",
         Präsidium: "Emanuel Fischer",
-        Sprecher: "MArco Seitter"
+        Sprecher: "Marco Seitter"
 
     }
  },
@@ -185,9 +185,9 @@ document.addEventListener('DOMContentLoaded', function ()
             headerToolbar:
             {
                 /*  Buttons */
-                left: 'prev, next today',
+                left: 'prev,next today',
                 center: 'title',
-                right: 'dayGridMonth, timeGridWeek, listMonth'
+                right: 'dayGridMonth,timeGridWeek,listMonth'
             },
             /* Retrieve events from Array at top */
             events: churchEvents,
