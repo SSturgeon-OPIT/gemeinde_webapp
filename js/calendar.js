@@ -2,6 +2,18 @@
 const churchEvents =
 [{
     title: "Sonntag - Bibel Stunde", 
+    start: "2026-03-29T10:00",
+    end:   "2026-03-29T12:00",
+    extendedProps:
+    {
+        Empfang: "Chris McQueen",
+        Präsidium: "Marcus Bauer",
+        Sprecher: "Peter Neuburger"
+
+    }
+ }
+ {
+    title: "Sonntag - Bibel Stunde", 
     start: "2026-04-05T10:00",
     end:   "2026-04-05T12:00",
     extendedProps:
