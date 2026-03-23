@@ -11,7 +11,7 @@ const churchEvents =
         Sprecher: "Peter Neuburger"
 
     }
- }
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-04-05T10:00",
@@ -23,7 +23,7 @@ const churchEvents =
         Sprecher: "Samuel Bogner"
 
     }
- }
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-04-12T10:00",
@@ -35,8 +35,7 @@ const churchEvents =
         Sprecher: "Hartmut Sieber"
 
     }
- }
-
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-04-19T10:00",
@@ -48,8 +47,7 @@ const churchEvents =
         Sprecher: "Tobias Wachauf"
 
     }
- }
-
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-04-26T10:00",
@@ -61,8 +59,7 @@ const churchEvents =
         Sprecher: "Michael Siller"
 
     }
- }
-
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-03T10:00",
@@ -74,8 +71,7 @@ const churchEvents =
         Sprecher: "Chris McQueen"
 
     }
- }
-
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-10T10:00",
@@ -87,8 +83,7 @@ const churchEvents =
         Sprecher: "Marcus Bauer"
 
     }
- }
-
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-17T10:00",
@@ -100,8 +95,7 @@ const churchEvents =
         Sprecher: "Micha Imhof"
 
     }
- }
-
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-24T10:00",
@@ -113,8 +107,7 @@ const churchEvents =
         Sprecher: "Emanuel Fischer"
 
     }
- }
-
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-31T10:00",
@@ -126,8 +119,7 @@ const churchEvents =
         Sprecher: "Rüdiger Fischer"
 
     }
- }
-
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-06-07T10:00",
@@ -139,8 +131,7 @@ const churchEvents =
         Sprecher: "Gabor Urban"
 
     }
- }
-
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-06-14T10:00",
@@ -152,7 +143,7 @@ const churchEvents =
         Sprecher: "Cornel Motogna"
 
     }
- }
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-06-21T10:00",
@@ -164,7 +155,7 @@ const churchEvents =
         Sprecher: "MArco Seitter"
 
     }
- }
+ },
  {
     title: "Sonntag - Bibel Stunde", 
     start: "2026-06-28T10:00",
@@ -181,27 +172,34 @@ const churchEvents =
 
 document.addEventListener('DOMContentLoaded', function ()
 {
-    const calendarEl = new FullCalendar.Calendar(calendarEl,
+    const CalendarEl = this.documentURI.getElementById('calendar');
+
+    const calendar = new FullCalendar.Calendar(calendarEl,
         {
+            /* view, in german, starts on Monday, with auto height */
             initialView: 'dayGridMonth',
             locale: 'de',
-            firstDay: 1,
+            firstDay: 1, 
             height: 'auto',
 
             headerToolbar:
             {
+                /*  Buttons */
                 left: 'prev, next today',
                 center: 'title',
                 right: 'dayGridMonth, timeGridWeek, listMonth'
             },
+            /* Retrieve events from Array at top */
             events: churchEvents,
 
+            /* Show popup upon click */
             eventClick: function(info)
             {
                 showEventDetails(info.event);
             }
         });
-        calendarEl.rend();
+        /* Render Calendar */
+        calendar.render();
 });
 
 function showEventDetails(event)
@@ -215,9 +213,9 @@ function showEventDetails(event)
     const d = event.extendedProps;
 
     document.getElementById("modal-description").innerHTML = 
-    `Sprecher: ${d.sprecher}<br>
-    Empfang: ${d.empfang}<br>
-    Präsidium: ${d.presider}`;
+    `Sprecher: ${d.Sprecher}<br>
+    Empfang: ${d.Empfang}<br>
+    Präsidium: ${d.Präsidium}`;
 }
 
 function closeModal() 
