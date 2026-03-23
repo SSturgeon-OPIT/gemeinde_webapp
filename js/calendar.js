@@ -172,7 +172,7 @@ const churchEvents =
 
 document.addEventListener('DOMContentLoaded', function ()
 {
-    const CalendarEl = this.documentURI.getElementById('calendar');
+    const calendarEl = document.getElementById('calendar');
 
     const calendar = new FullCalendar.Calendar(calendarEl,
         {

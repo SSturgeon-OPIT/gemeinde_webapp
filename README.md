@@ -1,5 +1,7 @@
 # Esslingen Gemeinde Web App - Prototype
-####### Protytpe can be found:
+####### Protytpe Repo can be found:
+https://github.com/SSturgeon-OPIT/gemeinde_webapp.git
+Prototype:
 https://ssturgeon-opit.github.io/gemeinde_webapp/
 
 ## This project, currently in the Protoype stage of progress, is intended for the members of the Esslingen Christadelphian Ecclesia
