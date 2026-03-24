@@ -5,7 +5,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-03-29T10:00",
     end:   "2026-03-29T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Chris McQueen",
@@ -18,7 +18,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-04-05T10:00",
     end:   "2026-04-05T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Cornel Motogna",
@@ -31,7 +31,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-04-12T10:00",
     end:   "2026-04-12T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Jonathan Ramsden",
@@ -44,7 +44,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-04-19T10:00",
     end:   "2026-04-19T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Emanuel Fischer",
@@ -57,7 +57,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-04-26T10:00",
     end:   "2026-04-26T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Florentin Støvhase",
@@ -70,7 +70,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-03T10:00",
     end:   "2026-05-03T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Jochen Pokowietz",
@@ -83,7 +83,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-10T10:00",
     end:   "2026-05-10T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Günter Seyfang",
@@ -96,7 +96,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-17T10:00",
     end:   "2026-05-17T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Jochen Pokowietz",
@@ -109,7 +109,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-24T10:00",
     end:   "2026-05-24T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Peter Siller",
@@ -122,7 +122,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-05-31T10:00",
     end:   "2026-05-31T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Tobias Wachauf",
@@ -135,7 +135,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-06-07T10:00",
     end:   "2026-06-07T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Micha Imhof",
@@ -148,7 +148,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-06-14T10:00",
     end:   "2026-06-14T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Chris McQueen",
@@ -161,7 +161,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-06-21T10:00",
     end:   "2026-06-21T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Peter Siller",
@@ -174,7 +174,7 @@ const churchEvents =
     title: "Sonntag - Bibel Stunde", 
     start: "2026-06-28T10:00",
     end:   "2026-06-28T12:00",
-    color: "#2ecc71";
+    color: "#2ecc71",
     extendedProps:
     {
         Empfang: "Johannes Bogner",
