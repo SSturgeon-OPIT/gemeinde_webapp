@@ -239,9 +239,13 @@ function showEventDetails(event)
 
     /* Insert the below custom event details into the popup click */
     document.getElementById("modal-description").innerHTML = 
-    `Empfang: ${d.Empfang}<br>
-    Präsidium: ${d.Präsidium}<br>
-    Sprecher: ${d.Sprecher}`;
+    `Sprecher: ${d.Sprecher}
+    Präsidium: ${d.Praesidium}<br>
+    Empfang: ${d.Empfang}`;
+    /* `Empfang: ${d.Empfang}<br>
+   Präsidium: ${d.Präsidium}<br>
+   Sprecher: ${d.Sprecher}`;*/
+
 }
 
 /* Function to close popup */ 
