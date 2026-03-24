@@ -31,7 +31,7 @@ body {
   flex: 1;
   min-width: 0;
   padding: 20px;
-  /* background: rgba( 255, 255, 255, 0.95 ); */
+  background: none; /* rgba( 255, 255, 255, 0.95 ); */
   border-radius: 12px;
   margin: 20px;
 }
@@ -66,6 +66,7 @@ body {
   margin: 20px auto;
   background: white !important;
   padding: 10px;
+  border: 8px solid red; /* to debug if working */ 
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba( 0, 0 , 0, 0.2);
 }
@@ -92,7 +93,8 @@ body {
 
 .fc
 {
-  background-color: white !important;
+  background: white !important;
+  display: block !important;
 }
 
 
