@@ -185,10 +185,13 @@ const churchEvents =
  }
 ];
 
+/* */
 document.addEventListener('DOMContentLoaded', function ()
 {
+    /* Receive Receive HTML object with "getElementById" where the calendar will be shown */
     const calendarEl = document.getElementById('calendar');
 
+    /* Create FullCalendar instance, connecting it to previous HTML object */
     const calendar = new FullCalendar.Calendar(calendarEl,
         {
             /* view, in german, starts on Monday, with auto height */
@@ -197,9 +200,10 @@ document.addEventListener('DOMContentLoaded', function ()
             firstDay: 1, 
             height: 'auto',
 
+            /* header buttons to be shown in Calendar */
             headerToolbar:
             {
-                /*  Buttons */
+                /*  Buttons, left-> buttons on left, center-> buttons on center, right-> different calendar display options */
                 left: 'prev,next today',
                 center: 'title',
                 right: 'dayGridMonth,timeGridWeek,listMonth'
@@ -210,6 +214,7 @@ document.addEventListener('DOMContentLoaded', function ()
             /* Show popup upon click */
             eventClick: function(info)
             {
+                /* Call showEventDetails function */
                 showEventDetails(info.event);
             }
         });
@@ -217,23 +222,32 @@ document.addEventListener('DOMContentLoaded', function ()
         calendar.render();
 });
 
+/* This function displays upon popup being clicked */ 
 function showEventDetails(event)
 {
+    /* Make visible */
     document.getElementById("event-modal").style.display = "block";
 
+    /* Make title the title of event  */
     document.getElementById("modal-title").textContent = event.title;
 
+    /* This shows the start and end time of the event upon popup */
     document.getElementById("modal-time").textContent = event.start.toLocaleString() + " - " + (event.end ? event.end.toLocaleString() : " ");
 
+    /* Retrieve the data stored in extendedProps */
     const d = event.extendedProps;
 
+    /* Insert the below custom event details into the popup click */
     document.getElementById("modal-description").innerHTML = 
-    `Sprecher: ${d.Sprecher}<br>
-    Empfang: ${d.Empfang}<br>
-    Präsidium: ${d.Präsidium}`;
+    `Empfang: ${d.Empfang}<br>
+    Präsidium: ${d.Praesidium}<br>
+    Sprecher: ${d.Sprecher}`;
 }
 
+/* Function to close popup */ 
 function closeModal() 
 {
+    /* Hides the popup */
     document.getElementById("event-modal").style.display = "none";
 }
+
