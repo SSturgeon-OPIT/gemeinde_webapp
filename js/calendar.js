@@ -9,7 +9,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Chris McQueen",
-        Präsidium: "Marcus Bauer",
+        Praesidium: "Marcus Bauer",
         Sprecher: "Peter Neuburger"
 
     }
@@ -22,7 +22,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Cornel Motogna",
-        Präsidium: "Volker Imhof",
+        Praesidium: "Volker Imhof",
         Sprecher: "Samuel Bogner"
 
     }
@@ -35,7 +35,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Jonathan Ramsden",
-        Präsidium: "Marco Seitter",
+        Praesidium: "Marco Seitter",
         Sprecher: "Hartmut Sieber"
 
     }
@@ -48,7 +48,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Emanuel Fischer",
-        Präsidium: "Martin Bogner",
+        Praesidium: "Martin Bogner",
         Sprecher: "Tobias Wachauf"
 
     }
@@ -61,7 +61,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Florentin Støvhase",
-        Präsidium: "Micha Imhof",
+        Praesidium: "Micha Imhof",
         Sprecher: "Michael Siller"
 
     }
@@ -74,7 +74,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Jochen Pokowietz",
-        Präsidium: "Johannes Bogner",
+        Praesidium: "Johannes Bogner",
         Sprecher: "Chris McQueen"
 
     }
@@ -87,7 +87,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Günter Seyfang",
-        Präsidium: "Volker Imhof",
+        Praesidium: "Volker Imhof",
         Sprecher: "Marcus Bauer"
 
     }
@@ -100,7 +100,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Jochen Pokowietz",
-        Präsidium: "Cornel Motogna",
+        Praesidium: "Cornel Motogna",
         Sprecher: "Micha Imhof"
 
     }
@@ -113,7 +113,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Peter Siller",
-        Präsidium: "Tobias Wachauf",
+        Praesidium: "Tobias Wachauf",
         Sprecher: "Emanuel Fischer"
 
     }
@@ -126,7 +126,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Tobias Wachauf",
-        Präsidium: "Johannes Bogner",
+        Praesidium: "Johannes Bogner",
         Sprecher: "Rüdiger Fischer"
 
     }
@@ -139,7 +139,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Micha Imhof",
-        Präsidium: "Emanuel Fischer",
+        Praesidium: "Emanuel Fischer",
         Sprecher: "Gabor Urban"
 
     }
@@ -152,7 +152,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Chris McQueen",
-        Präsidium: "Rüdiger Fischer",
+        Praesidium: "Rüdiger Fischer",
         Sprecher: "Cornel Motogna"
 
     }
@@ -165,7 +165,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Peter Siller",
-        Präsidium: "Emanuel Fischer",
+        Praesidium: "Emanuel Fischer",
         Sprecher: "Marco Seitter"
 
     }
@@ -178,7 +178,7 @@ const churchEvents =
     extendedProps:
     {
         Empfang: "Johannes Bogner",
-        Präsidium: "Marcus Bauer",
+        Praesidium: "Marcus Bauer",
         Sprecher: "Chris McQueen"
 
     }
@@ -240,7 +240,7 @@ function showEventDetails(event)
     /* Insert the below custom event details into the popup click */
     document.getElementById("modal-description").innerHTML = 
     `Empfang: ${d.Empfang}<br>
-    Präsidium: ${d.Präsidium}<br>
+    Präsidium: ${d.Praesidium}<br>
     Sprecher: ${d.Sprecher}`;
 
 }
