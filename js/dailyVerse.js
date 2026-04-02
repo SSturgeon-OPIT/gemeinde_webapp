@@ -15,25 +15,25 @@ document.addEventListener("DOMContentLoaded", function()
     // Array of Background images to pair with above verses
     const images =
     [
-        "images/dbv1.webp",
-        "images/dbv2.webp",
-        "images/dbv3.avif",
-        "images/dbv4.avif",
-        "images/dbv5.avif",
-        "images/dbv6.avif",
-        "images/dbv7.avif",
-        "images/dbv8.avif",
-        "images/dbv10.avif",
-        "images/dbv11.avif",
-        "images/dbv12.avif",
-        "images/dbv13.avif",
-        "images/dbv14.avif",
-        "images/dbv15.avif",
-        "images/dbv16.avif",
-        "images/dbv17.avif",
-        "images/dbv18.avif",
-        "images/dbv19.avif",
-        "images/dbv20.avif"
+        "images/dbv/dbv1.webp",
+        "images/dbv/dbv2.webp",
+        "images/dbv/dbv3.avif",
+        "images/dbv/dbv4.avif",
+        "images/dbv/dbv5.avif",
+        "images/dbv/dbv6.avif",
+        "images/dbv/dbv7.avif",
+        "images/dbv/dbv8.avif",
+        "images/dbv/dbv10.avif",
+        "images/dbv/dbv11.avif",
+        "images/dbv/dbv12.avif",
+        "images/dbv/dbv13.avif",
+        "images/dbv/dbv14.avif",
+        "images/dbv/dbv15.avif",
+        "images/dbv/dbv16.avif",
+        "images/dbv/dbv17.avif",
+        "images/dbv/dbv18.avif",
+        "images/dbv/dbv19.avif",
+        "images/dbv/dbv20.avif"
     ];
 
     // get present day
