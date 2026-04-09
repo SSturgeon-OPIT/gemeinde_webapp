@@ -5,11 +5,10 @@ document.addEventListener("DOMContentLoaded", function()
     // Array of Bible verse... to eventually be moved elswhere
     const verses =
     [
-        "Der Herr is mein Hirte, mir wird nichts mangeln. - Psalm 23,1",
+        "Der Herr ist mein Hirte, mir wird nichts mangeln. - Psalm 23,1",
         "Ich vermag alles dur den, der mich stark macht. - Philipper 4,13",
         "Der Herr ist mein Licht und mein Heil. - Psalm 27,1",
-        "Seid stark und mutig! - Josua 1,9",
-        ""
+        "Seid stark und mutig! - Josua 1,9"
     ];
 
     // Array of Background images to pair with above verses
@@ -60,10 +59,11 @@ document.addEventListener("DOMContentLoaded", function()
         let today = now.toDateString();
 
         // only show after 5am
-        if (now.getHours() < 5)
+        /*if (now.getHours() < 5)
         {
             return false;
         }
+        */
 
         // if already shown, don't show
         if (lastShown == today)
@@ -101,11 +101,12 @@ document.addEventListener("DOMContentLoaded", function()
         text.innerText = verse;
 
         // store that verse has indeed been shown today
+        let doay = now.toDateString();
         localStorage.setItem("verseLastShown", today);
     }
 
     // quick check
-    if (shouldshowPopup())
+    if (shouldShowPopup())
     {
         showVersePopup();
     }

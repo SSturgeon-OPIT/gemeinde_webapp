@@ -1,5 +1,5 @@
 /* create constant variable that will store array of yearly Gemeinde Church Events  */
-alert("JS is up and running");
+// alert("JS is up and running");
 const churchEvents =
 [{
     title: "Sonntag - Bibel Stunde", 
