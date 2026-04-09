@@ -203,8 +203,6 @@ body {
 
   border-radius: 12px;
   overflow: hidden;
-
-  z-index: 9999;
 }
 
 .verse-content
@@ -215,7 +213,6 @@ body {
   border-radius: 12px;
   text-align: center;
   max-width: 600px;
-  z-index: 10000;
 }
 
 .verse-text
