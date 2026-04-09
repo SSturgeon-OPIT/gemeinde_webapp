@@ -8,9 +8,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Chris McQueen",
-        Praesidium: "Marcus Bauer",
-        Sprecher: "Peter Neuburger"
+        Empfang: //"Chris McQueen",
+        Praesidium: //"Marcus Bauer",
+        Sprecher: //"Peter Neuburger"
 
     }
  },
@@ -21,8 +21,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Jonathan Ramsden",
-        Sprecher: "Florentin Støvhase"
+        Praesidium: //"Jonathan Ramsden",
+        Sprecher: //"Florentin Støvhase"
 
     }
  },
@@ -33,9 +33,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Cornel Motogna",
-        Praesidium: "Volker Imhof",
-        Sprecher: "Samuel Bogner"
+        Empfang: //"Cornel Motogna",
+        Praesidium: //"Volker Imhof",
+        Sprecher: //"Samuel Bogner"
 
     }
  },
@@ -46,8 +46,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Micha Imhof",
-        Sprecher: "Gabor Urban"
+        Praesidium: //"Micha Imhof",
+        Sprecher: //"Gabor Urban"
 
     }
  },
@@ -58,9 +58,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Jonathan Ramsden",
-        Praesidium: "Marco Seitter",
-        Sprecher: "Hartmut Sieber"
+        Empfang: //"Jonathan Ramsden",
+        Praesidium: //"Marco Seitter",
+        Sprecher: //"Hartmut Sieber"
 
     }
  },
@@ -71,8 +71,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Stefan Huckauf",
-        Sprecher: "Neil McQueen"
+        Praesidium: //"Stefan Huckauf",
+        Sprecher: //"Neil McQueen"
 
     }
  },
@@ -83,9 +83,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Emanuel Fischer",
-        Praesidium: "Martin Bogner",
-        Sprecher: "Tobias Wachauf"
+        Empfang: //"Emanuel Fischer",
+        Praesidium: //"Martin Bogner",
+        Sprecher: //"Tobias Wachauf"
 
     }
  },
@@ -96,8 +96,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Jochen Pokowietz",
-        Sprecher: "Neil McQueen"
+        Praesidium: //"Jochen Pokowietz",
+        Sprecher: //"Neil McQueen"
 
     }
  },
@@ -108,9 +108,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Florentin Støvhase",
-        Praesidium: "Micha Imhof",
-        Sprecher: "Michael Siller"
+        Empfang: //"Florentin Støvhase",
+        Praesidium: //"Micha Imhof",
+        Sprecher: //"Michael Siller"
 
     }
  },
@@ -133,9 +133,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Jochen Pokowietz",
-        Praesidium: "Johannes Bogner",
-        Sprecher: "Chris McQueen"
+        Empfang: //"Jochen Pokowietz",
+        Praesidium: //"Johannes Bogner",
+        Sprecher: //"Chris McQueen"
 
     }
  },
@@ -146,8 +146,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Rüdiger Fischer",
-        Sprecher: "Hartmut Sieber"
+        Praesidium: //"Rüdiger Fischer",
+        Sprecher: //"Hartmut Sieber"
 
     }
  },
@@ -158,9 +158,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Günter Seyfang",
-        Praesidium: "Volker Imhof",
-        Sprecher: "Marcus Bauer"
+        Empfang: //"Günter Seyfang",
+        Praesidium: //"Volker Imhof",
+        Sprecher: //"Marcus Bauer"
 
     }
  },
@@ -171,8 +171,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Peter Siller",
-        Sprecher: "Sam Sturgeon"
+        Praesidium: //"Peter Siller",
+        Sprecher: //"Sam Sturgeon"
 
     }
  },
@@ -183,9 +183,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Jochen Pokowietz",
-        Praesidium: "Cornel Motogna",
-        Sprecher: "Micha Imhof"
+        Empfang: //"Jochen Pokowietz",
+        Praesidium: //"Cornel Motogna",
+        Sprecher: //"Micha Imhof"
 
     }
  },
@@ -196,8 +196,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Chris McQueen",
-        Sprecher: "Stefan Huckauf"
+        Praesidium: //"Chris McQueen",
+        Sprecher: //"Stefan Huckauf"
 
     }
  },
@@ -208,9 +208,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Peter Siller",
-        Praesidium: "Tobias Wachauf",
-        Sprecher: "Emanuel Fischer"
+        Empfang: //"Peter Siller",
+        Praesidium: //"Tobias Wachauf",
+        Sprecher: //"Emanuel Fischer"
 
     }
  },
@@ -221,8 +221,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Jochen Pokowietz",
-        Sprecher: "Dan Hardy"
+        Praesidium: //"Jochen Pokowietz",
+        Sprecher: //"Dan Hardy"
 
     }
  },
@@ -233,9 +233,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Tobias Wachauf",
-        Praesidium: "Johannes Bogner",
-        Sprecher: "Rüdiger Fischer"
+        Empfang: //"Tobias Wachauf",
+        Praesidium: //"Johannes Bogner",
+        Sprecher: //"Rüdiger Fischer"
 
     }
  },
@@ -246,8 +246,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Peter Siller",
-        Sprecher: "Marcus Bauer"
+        Praesidium: //"Peter Siller",
+        Sprecher: //"Marcus Bauer"
 
     }
  },
@@ -258,9 +258,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Micha Imhof",
-        Praesidium: "Emanuel Fischer",
-        Sprecher: "Gabor Urban"
+        Empfang: //"Micha Imhof",
+        Praesidium: //"Emanuel Fischer",
+        Sprecher: //"Gabor Urban"
 
     }
  },
@@ -271,8 +271,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Tobias Wachauf",
-        Sprecher: "Sam Sturgeon"
+        Praesidium: //"Tobias Wachauf",
+        Sprecher: //"Sam Sturgeon"
 
     }
  },
@@ -283,9 +283,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Chris McQueen",
-        Praesidium: "Rüdiger Fischer",
-        Sprecher: "Cornel Motogna"
+        Empfang: //"Chris McQueen",
+        Praesidium: //"Rüdiger Fischer",
+        Sprecher: //"Cornel Motogna"
 
     }
  },
@@ -296,8 +296,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Jonathan Ramsden",
-        Sprecher: "Cornel Motogna"
+        Praesidium: //"Jonathan Ramsden",
+        Sprecher: //"Cornel Motogna"
 
     }
  },
@@ -308,9 +308,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Peter Siller",
-        Praesidium: "Emanuel Fischer",
-        Sprecher: "Marco Seitter"
+        Empfang: //"Peter Siller",
+        Praesidium: //"Emanuel Fischer",
+        Sprecher: //"Marco Seitter"
 
     }
  },
@@ -321,8 +321,8 @@ const churchEvents =
     color: "#cc2e89",
     extendedProps:
     {
-        Praesidium: "Florentin Støvhase",
-        Sprecher: "Volker Imhof"
+        Praesidium: //"Florentin Støvhase",
+        Sprecher: //"Volker Imhof"
 
     }
  },
@@ -333,9 +333,9 @@ const churchEvents =
     color: "#2ecc71",
     extendedProps:
     {
-        Empfang: "Johannes Bogner",
-        Praesidium: "Marcus Bauer",
-        Sprecher: "Chris McQueen"
+        Empfang: //"Johannes Bogner",
+        Praesidium: //"Marcus Bauer",
+        Sprecher: //"Chris McQueen"
 
     }
  }
