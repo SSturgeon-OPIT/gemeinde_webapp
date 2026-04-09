@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function()
         modal.style.display = "flex";
 
         // set background image
-        modal.style.backgroundImage = "url(" + image + ")";
+        modal.style.backgroundImage = "url('/gemeinde_webapp/" + image + "')";
 
         // insert the verse
         text.innerText = verse;
