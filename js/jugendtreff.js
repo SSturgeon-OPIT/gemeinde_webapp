@@ -1,3 +1,7 @@
+// debugging...
+btnRight.addEventListener("click", () => {
+    console.log("RIGHT CLICKED");});
+
 // Wait until DOM is loaded before running script
 document.addEventListener("DOMContentLoaded", function()
 {
@@ -51,4 +55,4 @@ document.addEventListener("DOMContentLoaded", function()
 
     // recalculate position when window is resized
     window.addEventListener("resize", updateCarousel);
-})
+});
