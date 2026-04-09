@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function()
     function updateCarousel()
     {
         // Get width of single image
-        const imageWidth = images[0].clientWidth;
+        const imageWidth = images[0].offsetWidth;
 
         // Move the track horizontally using CSS
         track.style.transform = `translateX(-${index * imageWidth}px)`;
