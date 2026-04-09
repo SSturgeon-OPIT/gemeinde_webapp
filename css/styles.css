@@ -28,7 +28,7 @@ h1, h2, p {
 body {
   background-image:url("../images/bg/Christadelphian_gemeinde.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   margin: 0;
   width: 100%;
@@ -40,10 +40,19 @@ body::before
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(255, 255, 255, 0.8); /* LIGHT OVERLAY */
+  background: rgba(255, 255, 255, 0.55); 
   z-index: -1;
 }
 
+body::after
+{
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  backdrop-filter: blur(2px);
+  z-index: -1;
+}
 .page-layout {
   display: flex;
   min-height: 100vh;
@@ -79,10 +88,10 @@ body::before
   flex: 1;
   min-width: 0;
   padding: 40px;
-  background: rgba( 255, 255, 255, 0.95 ); */
+  background: rgba( 255, 255, 255, 0.85); 
   border-radius: 16px;
   margin: 40px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
 }
 
 .Image1{
