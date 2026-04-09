@@ -1,7 +1,3 @@
-// debugging...
-btnRight.addEventListener("click", () => {
-    console.log("RIGHT CLICKED");});
-
 // Wait until DOM is loaded before running script
 document.addEventListener("DOMContentLoaded", function()
 {
@@ -9,11 +5,18 @@ document.addEventListener("DOMContentLoaded", function()
     const track = document.querySelector(".carousel-track");
 
     // Select images in the carousel
-    const image = document.querySelectorAll(".carousel-track img");
+    const images = document.querySelectorAll(".carousel-track img");
 
     // Select navigation buttons
-    const btnLeft = document.querySelector("carousel-btn.left");
+    const btnLeft = document.querySelector(".carousel-btn.left");
     const btnRight = document.querySelector(".carousel-btn.right");
+
+    // Safety
+    if (!track || images.length === 0 || !btnLeft || !btnRight)
+    {
+        console.log("Carousel elements not found");
+        return;
+    }
 
     //Current index would be leftmost image in sight
     let index = 0;
@@ -35,9 +38,9 @@ document.addEventListener("DOMContentLoaded", function()
     btnRight.addEventListener("click", () =>
     {
         // prevent scrolling beyond last position
-        if ( index < this.images.length - visibleImages)
+        if ( index < images.length - visibleImages)
         {
-            index++ // move forward
+            index++; // move forward
             updateCarousel(); // apply movement
         }
     });
