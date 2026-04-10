@@ -125,7 +125,7 @@ body::after
   margin: 20px auto;
   background: white !important;
   padding: 10px;
-  border: 8px solid red; /* to debug if working */ 
+  border: 8px #34495e; 
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba( 0, 0 , 0, 0.2);
 }
