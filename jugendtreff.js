@@ -37,6 +37,8 @@ document.addEventListener("DOMContentLoaded", function()
     // Move carousel one step to the righrt
     btnRight.addEventListener("click", () =>
     {
+        console.log("Index:", index);
+        
         // prevent scrolling beyond last position
         if ( index < images.length - visibleImages)
         {
@@ -48,6 +50,8 @@ document.addEventListener("DOMContentLoaded", function()
     // Move carousel to the left
     btnLeft.addEventListener("click", () =>
     {
+        console.log("Index:", index);
+
         //prevent scrolling beyond first image
         if (index > 0)
         {
@@ -59,3 +63,5 @@ document.addEventListener("DOMContentLoaded", function()
     // recalculate position when window is resized
     window.addEventListener("resize", updateCarousel);
 });
+
+updateCarousel();
