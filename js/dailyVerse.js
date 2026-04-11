@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function()
 {
 
-    // Array of Bible verse... to eventually be moved elswhere
+    // Array of Bible verse... to eventually be moved elswhere... currently hard coded
     const verses =
     [
         "Der Herr ist mein Hirte, mir wird nichts mangeln. - Psalm 23,1",
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function()
         "Seid stark und mutig! - Josua 1,9"
     ];
 
-    // Array of Background images to pair with above verses
+    // Array of Background images to pair with above verses This is no longer used... as they make the screen to cluttered. A nice solid blue background works for the time being. Perhaps will change later on 
     const images =
     [
         "images/dbv/dbv1.webp",
@@ -41,24 +41,29 @@ document.addEventListener("DOMContentLoaded", function()
     // to then calculate day number of year
     function getDayIndex()
     {
+        // Create date object which would represent the start of the year
         let start = new Date(now.getFullYear(), 0, 0);
+
+        // to calculate difference between now vs start of year
         let diff = now - start;
 
         // convert milliseconds to days
         let days = diff / (1000 * 60 * 60 * 24);
 
+        // return integer day where floor gets ride of fractional day
         return Math.floor(days);
     }
 
     // check if popup needs to be shown
     function shouldShowPopup()
     {
+        // get last date popup shown
         let lastShown = localStorage.getItem("verseLastShown");
 
         // using toDateString to simplify
         let today = now.toDateString();
 
-        // only show after 5am
+        // only show after 5am time restriction... currently unused
         /*if (now.getHours() < 5)
         {
             return false;
@@ -74,24 +79,32 @@ document.addEventListener("DOMContentLoaded", function()
         return true;
     }
 
+    // responsible for displaying verse popup
     function showVersePopup()
     {
+        // current day index
         let index = getDayIndex();
 
         // pick verse and image to pair together
         let verse = verses[index % verses.length];
+
+        // select corresponding image to pair with verse... this isn't currently but used, but saved in case I decixe to use it in future
         let image = images[index % images.length];
 
+        // Get modal container from DOM 
         let modal = document.getElementById("verse-modal");
+
+        // get element to insert verse
         let text = document.getElementById("verse-text");
 
-        // a just in case null check
+        // a just in case null check... ensure elements exist
         if (!modal || !text)
         {
             console.log("Modal elements not found");
             return;
         }
 
+        // make modal visible 
         modal.style.display = "flex";
 
         // set background image
@@ -101,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function()
         text.innerText = verse;
 
         // store that verse has indeed been shown today
-        let doay = now.toDateString();
+        let today = now.toDateString();
         localStorage.setItem("verseLastShown", today);
     }
 

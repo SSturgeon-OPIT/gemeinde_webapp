@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function()
     const btnLeft = document.querySelector(".carousel-btn.left");
     const btnRight = document.querySelector(".carousel-btn.right");
 
-    // Safety
+    // Safety check to ensure required DOM exist
     if (!track || images.length === 0 || !btnLeft || !btnRight)
     {
         console.log("Carousel elements not found");
-        return;
+        return; // to prevent errors during runtime
     }
 
     //Current index would be leftmost image in sight
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function()
     // Move carousel one step to the righrt
     btnRight.addEventListener("click", () =>
     {
-        console.log("Index:", index);
+        console.log("Index:", index); // debugging...
         
         // prevent scrolling beyond last position
         if ( index < images.length - visibleImages)
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function()
     // Move carousel to the left
     btnLeft.addEventListener("click", () =>
     {
-        console.log("Index:", index);
+        console.log("Index:", index); // Debugging...
 
         //prevent scrolling beyond first image
         if (index > 0)
